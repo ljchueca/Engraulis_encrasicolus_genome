@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=backmap
+#SBATCH --job-name=03.2_backmap
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
 
@@ -10,7 +10,7 @@
 
 module load backmap/0.5
 
-AS=engrtranscriptome.fa
+AS=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.1_rna/03_trinity/engrtranscriptome.fa
 LF=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.1_rna/02_trimmomatic/BIOMAN2202_EKRO220002521-1A_H25LYDSX5_L4_1_paired.fq.gz
 RG=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.1_rna/02_trimmomatic/BIOMAN2202_EKRO220002521-1A_H25LYDSX5_L4_2_paired.fq.gz
 OUT=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.1_rna/03_trinity/backmap
