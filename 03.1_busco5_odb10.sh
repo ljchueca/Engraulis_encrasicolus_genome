@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=busco5_odb10
+#SBATCH --job-name=03.1_busco5_odb10
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
 
