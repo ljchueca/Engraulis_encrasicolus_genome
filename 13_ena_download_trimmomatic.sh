@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=13_ena_dowload_trimmomatic
+#SBATCH --job-name=13_ena_download_trimmomatic
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
 
