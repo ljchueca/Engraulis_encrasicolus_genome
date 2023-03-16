@@ -13,8 +13,8 @@ module load fastqc/0.11.9 multiqc/1.9
 
 #Input directory
 IN=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.3_rna_ena/trimmomatic
+#Output directory
 OUT=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.3_rna_ena/trimmomatic/fastqc
-
 #CPUs pert task
 CPU=6
 
