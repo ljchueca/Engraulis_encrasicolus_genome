@@ -11,11 +11,11 @@
 module load busco/4.1.4
 
 #Input directory
-IN=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.3_rna_ena/trinity/Trinity.fasta
+IN=/cluster/home/s_lchueca/engraulis_encrasicolus_genome/00.3_rna_ena/trinity/03_Trinity.fasta
 #Linage
 LIN=/cluster/software/busco/datasets/odb10_2021_09_02/actinopterygii_odb10
 #Output directory
-OUT=Enen_03_busco5_odb10
+OUT=03_Enen_busco5_odb10
 #CPU per task
 CPU=8
 #Mode
