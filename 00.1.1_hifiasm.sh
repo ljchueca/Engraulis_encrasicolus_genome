@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 #SBATCH --job-name=00.1.1_hifiasm
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
