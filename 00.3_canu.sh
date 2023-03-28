@@ -19,4 +19,4 @@ D=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.3_canu
 #Prefijo del assembly
 P=00.3_canu
 
-canu -d ${D} -p ${P} genomeSize=1.74g  minInputCoverage=4 -pacbio-hifi ${IN}
+canu -d ${D} -p ${P} genomeSize=1.74g minInputCoverage=4 -pacbio-hifi ${IN}

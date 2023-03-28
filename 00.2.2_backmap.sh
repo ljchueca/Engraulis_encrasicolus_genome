@@ -5,8 +5,8 @@
 #SBATCH --output %x-%j.out
 
 #SBATCH --partition=cpu
-#SBATCH --mem=50G
-#SBATCH --cpus-per-task=8
+#SBATCH --mem=100G
+#SBATCH --cpus-per-task=48
 
 module load backmap/0.5
 
