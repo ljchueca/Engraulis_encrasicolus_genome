@@ -11,18 +11,13 @@
 module load hifiasm/0.16.1
 
 #Output prefix for the assembly
-OUT=ENA_HI-C_hifiasm
-#Input directory
-IN=/cluster/home/lchueca/TBG_3759_3/X204SC23011763-Z01-F001/01.RawData/ANTXOA_4_final
-#Name of the reads
-NA=ANTXOA_4_final_EKDL230000582-1A
+OUT=Enen_hic_hifiasm
+#Input pacbio reads
+IN1=/cluster/home/lchueca/TBG_3759/01.hifi_deepconsensus/m64037e_230114_104235.deepconsensus.fastq
+#Input Hi-C reads
+IN2=/cluster/home/lchueca/TBG_3759_3/X204SC23011763-Z01-F001/01.RawData/ANTXOA_final_combine/ANTXOA_4_final_EKDL230000582-1A_HMTGCDSX5_C
 #Number of CPUs
-T=96
-
+CPU=96
 
 #Assembly
-hifiasm -o ${OUT} -t ${T} ${IN} --h1 ${IN}/${NA}_HMTGCDSX5_L2_1.fq.gz, ${IN}/${NA}_HMTGCDSX5_L2_2.fq.gz \
-    --h2 ${IN}/${NA}_HNH2MDSX5_L4_1.fq.gz, ${IN}/${NA}_HNH2MDSX5_L4_2.fq.gz &&
-
-#Convertir de gfa a fasta
-gfa2fa.sh ${OUT}.bp.p_ctg.gfa
+hifiasm -o ${OUT} -t ${CPU} --h1 ${IN2}_1.fq.gz --h2 ${IN2}_2.fq.gz ${IN1}

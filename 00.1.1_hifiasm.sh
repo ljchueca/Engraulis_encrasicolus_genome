@@ -13,12 +13,12 @@ module load hifiasm/0.16.1
 #Output prefix for the assembly
 OUT=Enen_hifiasm
 #Input directory
-IN=/cluster/home/lchueca/TBG_3759/01.hifi_deepconsensus/m64037e_230114_104235.deepconsensus.fastq
+IN1=/cluster/home/lchueca/TBG_3759/01.hifi_deepconsensus/m64037e_230114_104235.deepconsensus.fastq
 #Number of CPUs
 T=96
 
 #Assembly
-hifiasm -o ${OUT} -t ${T} ${IN} &&
+hifiasm -o ${OUT} -t ${T} ${IN1} &&
 
 #Convertir de gfa a fasta
 gfa2fa.sh ${OUT}.bp.p_ctg.gfa
