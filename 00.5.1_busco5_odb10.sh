@@ -14,11 +14,11 @@ module load busco/5.2.2_ve
 #Loading requirement: perl/5.34.0 gmap/2021-12-17 blat/385 fasta/36.3.8h_04-May-2020 mariadb/10.4.10 samtools/1.15.1 pasa/2.4.1 augustus/3.4.0
 
 #Input directory
-IN=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.5_hifiasm_HiC/Enen_hic_hifiasm.hic.p_ctg.gfa
+IN=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.5_hifiasm_HiC/Enen_hic_hifiasm.hic.p_ctg.fa
 #Linage
 LIN=/cluster/software/busco/datasets/odb10_2021_09_02/actinopterygii_odb10
 #Output directory
-OUT=00.1_busco5_odb10
+OUT=00.5.1_busco5_odb10
 #CPU per task
 CPU=8
 #Mode
