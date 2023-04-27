@@ -1,0 +1,13 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/368/295/GCF_003368295.1_ASM336829v1/GCF_003368295.1_ASM336829v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/368/295/GCF_003368295.1_ASM336829v1/GCF_003368295.1_ASM336829v1_genomic.gff.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/814/215/GCF_002814215.2_Sedor1/GCF_002814215.2_Sedor1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/814/215/GCF_002814215.2_Sedor1/GCF_002814215.2_Sedor1_genomic.gff.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/851/395/GCF_014851395.1_ASM1485139v1/GCF_014851395.1_ASM1485139v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/851/395/GCF_014851395.1_ASM1485139v1/GCF_014851395.1_ASM1485139v1_genomic.gff.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/500/255/GCF_902500255.1_fThaAma1.1/GCF_902500255.1_fThaAma1.1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/500/255/GCF_902500255.1_fThaAma1.1/GCF_902500255.1_fThaAma1.1_genomic.gff.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/769/545/GCF_009769545.1_fCycLum1.pri/GCF_009769545.1_fCycLum1.pri_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/769/545/GCF_009769545.1_fCycLum1.pri/GCF_009769545.1_fCycLum1.pri_genomic.gff.gz
+wget https://ftp.cngb.org/pub/gigadb/pub/10.5524/100001_101000/100596/Louro_et_al_2019-Sardine-GCA_900499035.1_SP_G_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/589/495/GCF_017589495.1_AALO_Geno_1.1/GCF_017589495.1_AALO_Geno_1.1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/589/495/GCF_017589495.1_AALO_Geno_1.1/GCF_017589495.1_AALO_Geno_1.1_genomic.gff.gz
