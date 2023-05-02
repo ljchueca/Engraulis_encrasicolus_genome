@@ -12,6 +12,7 @@ module load hisat/2.2.1
 
 #Hifiasm assembly
 AS=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.1_hifiasm/Enen_hifiasm.bp.p_ctg.fa
+#Input directory prefix
 IN1=BIOMAN2202_EKRO220002521-1A_H25LYDSX5_L4
 IN2=BIOMAN2202_EKRO220002521-1A_H22FLDSX5_L4
 IN3=SRR4431643
