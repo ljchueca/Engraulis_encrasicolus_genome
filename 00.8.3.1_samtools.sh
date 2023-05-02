@@ -10,5 +10,5 @@
 
 module load samtools/1.15.1 
 
-#Convert sam file to bam file
- samtools view -S -b Enen_input.sam > Enen_input.bam
+#Convert sam file to bam file, sorted and compressed
+ samtools view -@ 64 -b Enen_input.sam | samtools sort -@ 60 -l 9 -o Enen_input.bam 
