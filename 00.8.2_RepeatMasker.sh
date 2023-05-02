@@ -13,7 +13,7 @@ module load repeatmasker/4.1.4
 #Zebrafish repbase
 LIB=/cluster/software/repbase/RepBase27.03.fasta/zebrep.ref
 #Number of sequence batch jobs to run in parallel
-PA=
+PA=16
 
 RepeatMasker -s -pa ${PA} -no_is -xsmall -lib ${LIB} 
 

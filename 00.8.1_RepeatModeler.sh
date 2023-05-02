@@ -4,11 +4,9 @@
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
 
-#SBATCH --partition=main
-#SBATCH --mem=150G
+#SBATCH --partition=mem
+#SBATCH --mem=900G
 #SBATCH --cpus-per-task=64
-
-#### Commands to run on the cluster (has to be prefixed by "srun")
 
 module load repeatmodeler/2.0
 
