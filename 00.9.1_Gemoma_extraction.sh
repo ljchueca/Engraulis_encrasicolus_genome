@@ -11,7 +11,7 @@
 module load gemoma/1.8
 
 #Mapped reads file
-MAP=.bam
+MAP=Enen_input.bam
 
 java -jar GeMoMa-1.8.jar CLI ERE m=${MA} c=true
 
