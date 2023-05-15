@@ -1,6 +1,6 @@
 #!/bin/bash
   
-#SBATCH --job-name=00.9.1_Gemoma_extraction
+#SBATCH --job-name=01_Gemoma_extraction
 #SBATCH --error %x-%j.err
 #SBATCH --output %x-%j.out
 
@@ -11,7 +11,7 @@
 module load gemoma/1.8
 
 #Mapped reads file
-MAP=Enen_input.bam
+MAP=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.8_annotation/00.8.3_RNA_hisat2/Enen_input.bam
 
-java -jar GeMoMa-1.8.jar CLI ERE m=${MA} c=true
+java -jar /cluster/software/gemoma/GeMoMa-1.8/GeMoMa-1.8.jar CLI ERE m=${MAP} c=true
 

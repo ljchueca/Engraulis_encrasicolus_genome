@@ -11,8 +11,8 @@
 module load gemoma/1.8
 
 
-java  -Xmx9G -jar GeMoMa-1.8.jar CLI Extractor \
-a=
-g=
-p=true
+java  -Xmx9G -jar /cluster/software/gemoma/GeMoMa-1.8/GeMoMa-1.8.jar CLI Extractor \
+a= \
+g=Enen_hifiasm_simply.masked.fasta \
+p=true \
 c=true

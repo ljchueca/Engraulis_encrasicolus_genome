@@ -8,7 +8,7 @@
 #SBATCH --mem=150G
 #SBATCH --cpus-per-task=64
 
-module load repeatmasker/4.1.4
+module load repeatmasker/4.1.4 ncbi-blast/2.12.0
 
 GE=/cluster/home/lchueca/TBG_3759_Enen_assembly/00.7_relationed_species/Louro_et_al_2019-Sardine-GCA_900499035.1_SP_G_genomic.fna
 
