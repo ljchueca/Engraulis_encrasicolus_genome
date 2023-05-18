@@ -12,7 +12,7 @@
 
 module load ncbi-blast/2.14.0
 
-PRO=03_Enen_proteins.02.fasta
+PRO=05_Enen_proteins.02.fasta
 
 # blast vs swissprot for putative names:
 

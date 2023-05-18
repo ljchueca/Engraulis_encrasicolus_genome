@@ -12,9 +12,9 @@
 
 module load maker/2.31.10-mpi
 
-PRO=03_Enen_proteins.02.fasta
-CDS=03_Enen_cds.fasta
-AN=03_Enen_filtered_predictions.gff
+PRO=05_Enen_proteins.02.fasta
+CDS=05_Enen_cds.fasta
+AN=05_Enen_final_annotation.gff
 
 maker_map_ids --prefix Enen_ --abrv_gene G --abrv_tran T --justify 6 --iterate 1 ${AN} > Enen.all.id.map &&
 
