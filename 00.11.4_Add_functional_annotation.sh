@@ -12,9 +12,9 @@
 
 module load maker/2.31.10-mpi
 
-PRO=03_Enen_proteins.02.fasta
-CDS=03_Enen_cds.fasta
-AN=03_Enen_filtered_predictions.gff
+PRO=05_Enen_proteins.02.fasta
+CDS=05_Enen_cds.fasta
+AN=05_Enen_final_annotation.gff
 
 ipr_update_gff ${AN} Enen.tsv > Enen.all.ipr.gff &&
 
