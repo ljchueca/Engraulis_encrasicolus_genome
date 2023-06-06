@@ -16,6 +16,6 @@ PRO=05_Enen_proteins.02.fasta
 
 # blast vs swissprot for putative names:
 
-makeblastdb -in uniprot_sprot.fasta -out uniprot_sprot.fasta -parse_seqids -dbtype prot &&
+makeblastdb -in uniprot_sprot_2023-05.fasta -out uniprot_sprot_2023-05.fasta -parse_seqids -dbtype prot &&
 
-blastp -num_threads 64 -query ${PRO} -db uniprot_sprot.fasta -evalue 1e-6 -max_hsps 1 -max_target_seqs 1 -outfmt 6 -out Enen_proteins.fasta.blastp
+blastp -num_threads 64 -query ${PRO} -db uniprot_sprot_2023-05.fasta -evalue 1e-6 -max_hsps 1 -max_target_seqs 1 -outfmt 6 -out Enen_proteins.fasta.blastp

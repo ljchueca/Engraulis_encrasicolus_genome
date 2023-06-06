@@ -10,9 +10,6 @@
 
 #### Commands to run on the cluster (has to be prefixed by "srun")
 
-module load interproscan/5.47-82.0
+module load interproscan/5.39.77
 
-IN=05_GeMoMa_proteins.02.fasta
-
-
-interproscan.sh -i ${IN} -f tsv -iprlookup -b Enen -pa -goterms -exclappl SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -dp -cpu 96
+interproscan.sh -i 05_Enen_proteins.02.fasta -f tsv -iprlookup -b Enen -pa -goterms -exclappl SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -dp -cpu 96
