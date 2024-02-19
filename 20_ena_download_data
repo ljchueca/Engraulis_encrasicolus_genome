@@ -1,0 +1,4 @@
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/006/SRR1575626/SRR1575626_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/006/SRR1575626/SRR1575626_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/008/SRR1575628/SRR1575628_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/008/SRR1575628/SRR1575628_2.fastq.gz
